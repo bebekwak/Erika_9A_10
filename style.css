@@ -5,7 +5,7 @@ header{
     display: flex;
     top:0;
     width: 100%;
-    background-color: #80cf5f;
+    background-color: #6bb949;
     justify-content: space-between;
     position: fixed;
     z-index: 1;
@@ -16,11 +16,16 @@ nav a{
     padding: 10px 25px;
     text-decoration: none;
     color: white;
-    float:right;
 }
 nav a:hover{
     color:black;
     transition: background-color 0.2s;
+}
+.logo{
+    padding-top: 20px;
+    padding-left: 10px;
+    font-size: 20px;
+    color:#ffffff;
 }
 section.home{
         height: 600px;
@@ -28,19 +33,21 @@ section.home{
         background-size: cover;
         background-repeat: no-repeat;
         background-attachment: fixed;
-        padding-top: 100px;
+        padding-top: 350px;
     }
     
     section.home div {
         text-align: center;
-        color: white;
+        color: #56db7e;
         margin: auto;
         width: 70%;
         padding: 20px;
+        background-color: rgb(6, 93, 32,0.7);
+        border-radius: 10px;
     }
     
     section.home a {
-        color: white;
+        color: #56db7e;
         padding: 10px 20px;
         text-decoration: none;
         box-shadow: 0px 0px 3px;
@@ -49,8 +56,8 @@ section.home{
 
 section.about {
     background-color:#438b12;
-    height: 400px;
-    padding-top: 350px;
+    height: 300px;
+    padding-top: 70px;
 }
 section.about div{
     color:white;
